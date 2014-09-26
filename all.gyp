@@ -12,6 +12,7 @@
       'target_name': 'build_all_android_extensions',
       'type': 'none',
       'dependencies': [
+        'ardrone_video/ardrone_video.gyp:*',
         'iap/iap.gyp:*',
         'idl_demo/idl_demo.gyp:*',
       ],
